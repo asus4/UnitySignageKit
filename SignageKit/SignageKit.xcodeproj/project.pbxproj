@@ -1,0 +1,645 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		7830A3A819484ADA00E2184E /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 7830A3A619484AD900E2184E /* InfoPlist.strings */; };
+		7830A3B519484B2900E2184E /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7830A3B419484B2900E2184E /* Cocoa.framework */; };
+		7830A3BF19484B2900E2184E /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 7830A3BD19484B2900E2184E /* InfoPlist.strings */; };
+		7830A3C119484B2900E2184E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 7830A3C019484B2900E2184E /* main.m */; };
+		7830A3C519484B2900E2184E /* Credits.rtf in Resources */ = {isa = PBXBuildFile; fileRef = 7830A3C319484B2900E2184E /* Credits.rtf */; };
+		7830A3C819484B2900E2184E /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 7830A3C719484B2900E2184E /* AppDelegate.m */; };
+		7830A3CB19484B2900E2184E /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7830A3C919484B2900E2184E /* MainMenu.xib */; };
+		7830A3CD19484B2900E2184E /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7830A3CC19484B2900E2184E /* Images.xcassets */; };
+		7830A3D419484B2900E2184E /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7830A3D319484B2900E2184E /* XCTest.framework */; };
+		7830A3D519484B2900E2184E /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7830A3B419484B2900E2184E /* Cocoa.framework */; };
+		7830A3DD19484B2900E2184E /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 7830A3DB19484B2900E2184E /* InfoPlist.strings */; };
+		7830A3DF19484B2900E2184E /* MacSignageKitTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 7830A3DE19484B2900E2184E /* MacSignageKitTests.m */; };
+		7830A3EB19484C5C00E2184E /* WindowUtil.mm in Sources */ = {isa = PBXBuildFile; fileRef = 7830A3EA19484C5C00E2184E /* WindowUtil.mm */; };
+		7830A3EC19484C5C00E2184E /* WindowUtil.mm in Sources */ = {isa = PBXBuildFile; fileRef = 7830A3EA19484C5C00E2184E /* WindowUtil.mm */; };
+		7830A3ED19484C5C00E2184E /* WindowUtil.mm in Sources */ = {isa = PBXBuildFile; fileRef = 7830A3EA19484C5C00E2184E /* WindowUtil.mm */; };
+		78A6802919497AE700AD102C /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7830A3B419484B2900E2184E /* Cocoa.framework */; };
+		78A6802B19497B7B00AD102C /* IOKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 78A6802A19497B7B00AD102C /* IOKit.framework */; };
+		78A6802C19497B9000AD102C /* IOKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 78A6802A19497B7B00AD102C /* IOKit.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		7830A3D619484B2900E2184E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7830A39619484AD900E2184E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7830A3B219484B2900E2184E;
+			remoteInfo = MacSignageKit;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		7830A39E19484AD900E2184E /* SignageKit.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SignageKit.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
+		7830A3A119484AD900E2184E /* CoreFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreFoundation.framework; path = System/Library/Frameworks/CoreFoundation.framework; sourceTree = SDKROOT; };
+		7830A3A519484AD900E2184E /* SignageKit-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "SignageKit-Info.plist"; sourceTree = "<group>"; };
+		7830A3A719484AD900E2184E /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		7830A3A919484ADA00E2184E /* SignageKit-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "SignageKit-Prefix.pch"; sourceTree = "<group>"; };
+		7830A3B319484B2900E2184E /* MacSignageKit.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MacSignageKit.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		7830A3B419484B2900E2184E /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		7830A3B719484B2900E2184E /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
+		7830A3B819484B2900E2184E /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		7830A3B919484B2900E2184E /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		7830A3BC19484B2900E2184E /* MacSignageKit-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "MacSignageKit-Info.plist"; sourceTree = "<group>"; };
+		7830A3BE19484B2900E2184E /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		7830A3C019484B2900E2184E /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		7830A3C219484B2900E2184E /* MacSignageKit-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "MacSignageKit-Prefix.pch"; sourceTree = "<group>"; };
+		7830A3C419484B2900E2184E /* en */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; name = en; path = en.lproj/Credits.rtf; sourceTree = "<group>"; };
+		7830A3C619484B2900E2184E /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		7830A3C719484B2900E2184E /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		7830A3CA19484B2900E2184E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		7830A3CC19484B2900E2184E /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		7830A3D219484B2900E2184E /* MacSignageKitTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MacSignageKitTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		7830A3D319484B2900E2184E /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		7830A3DA19484B2900E2184E /* MacSignageKitTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "MacSignageKitTests-Info.plist"; sourceTree = "<group>"; };
+		7830A3DC19484B2900E2184E /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		7830A3DE19484B2900E2184E /* MacSignageKitTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MacSignageKitTests.m; sourceTree = "<group>"; };
+		7830A3E819484B9A00E2184E /* LittleCaffeine.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; path = LittleCaffeine.h; sourceTree = "<group>"; };
+		7830A3E919484C5C00E2184E /* WindowUtil.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WindowUtil.h; sourceTree = "<group>"; };
+		7830A3EA19484C5C00E2184E /* WindowUtil.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = WindowUtil.mm; sourceTree = "<group>"; };
+		78A6802A19497B7B00AD102C /* IOKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = IOKit.framework; path = System/Library/Frameworks/IOKit.framework; sourceTree = SDKROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		7830A39B19484AD900E2184E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				78A6802B19497B7B00AD102C /* IOKit.framework in Frameworks */,
+				78A6802919497AE700AD102C /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7830A3B019484B2900E2184E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				78A6802C19497B9000AD102C /* IOKit.framework in Frameworks */,
+				7830A3B519484B2900E2184E /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7830A3CF19484B2900E2184E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7830A3D519484B2900E2184E /* Cocoa.framework in Frameworks */,
+				7830A3D419484B2900E2184E /* XCTest.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		7830A39519484AD900E2184E = {
+			isa = PBXGroup;
+			children = (
+				7830A3E619484B9A00E2184E /* src */,
+				7830A3A319484AD900E2184E /* SignageKit */,
+				7830A3BA19484B2900E2184E /* MacSignageKit */,
+				7830A3D819484B2900E2184E /* MacSignageKitTests */,
+				7830A3A019484AD900E2184E /* Frameworks */,
+				7830A39F19484AD900E2184E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		7830A39F19484AD900E2184E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				7830A39E19484AD900E2184E /* SignageKit.bundle */,
+				7830A3B319484B2900E2184E /* MacSignageKit.app */,
+				7830A3D219484B2900E2184E /* MacSignageKitTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		7830A3A019484AD900E2184E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				78A6802A19497B7B00AD102C /* IOKit.framework */,
+				7830A3A119484AD900E2184E /* CoreFoundation.framework */,
+				7830A3B419484B2900E2184E /* Cocoa.framework */,
+				7830A3D319484B2900E2184E /* XCTest.framework */,
+				7830A3B619484B2900E2184E /* Other Frameworks */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		7830A3A319484AD900E2184E /* SignageKit */ = {
+			isa = PBXGroup;
+			children = (
+				7830A3A419484AD900E2184E /* Supporting Files */,
+			);
+			path = SignageKit;
+			sourceTree = "<group>";
+		};
+		7830A3A419484AD900E2184E /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				7830A3A519484AD900E2184E /* SignageKit-Info.plist */,
+				7830A3A619484AD900E2184E /* InfoPlist.strings */,
+				7830A3A919484ADA00E2184E /* SignageKit-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		7830A3B619484B2900E2184E /* Other Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				7830A3B719484B2900E2184E /* AppKit.framework */,
+				7830A3B819484B2900E2184E /* CoreData.framework */,
+				7830A3B919484B2900E2184E /* Foundation.framework */,
+			);
+			name = "Other Frameworks";
+			sourceTree = "<group>";
+		};
+		7830A3BA19484B2900E2184E /* MacSignageKit */ = {
+			isa = PBXGroup;
+			children = (
+				7830A3C619484B2900E2184E /* AppDelegate.h */,
+				7830A3C719484B2900E2184E /* AppDelegate.m */,
+				7830A3C919484B2900E2184E /* MainMenu.xib */,
+				7830A3CC19484B2900E2184E /* Images.xcassets */,
+				7830A3BB19484B2900E2184E /* Supporting Files */,
+			);
+			path = MacSignageKit;
+			sourceTree = "<group>";
+		};
+		7830A3BB19484B2900E2184E /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				7830A3BC19484B2900E2184E /* MacSignageKit-Info.plist */,
+				7830A3BD19484B2900E2184E /* InfoPlist.strings */,
+				7830A3C019484B2900E2184E /* main.m */,
+				7830A3C219484B2900E2184E /* MacSignageKit-Prefix.pch */,
+				7830A3C319484B2900E2184E /* Credits.rtf */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		7830A3D819484B2900E2184E /* MacSignageKitTests */ = {
+			isa = PBXGroup;
+			children = (
+				7830A3DE19484B2900E2184E /* MacSignageKitTests.m */,
+				7830A3D919484B2900E2184E /* Supporting Files */,
+			);
+			path = MacSignageKitTests;
+			sourceTree = "<group>";
+		};
+		7830A3D919484B2900E2184E /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				7830A3DA19484B2900E2184E /* MacSignageKitTests-Info.plist */,
+				7830A3DB19484B2900E2184E /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		7830A3E619484B9A00E2184E /* src */ = {
+			isa = PBXGroup;
+			children = (
+				7830A3E719484B9A00E2184E /* utils */,
+			);
+			path = src;
+			sourceTree = "<group>";
+		};
+		7830A3E719484B9A00E2184E /* utils */ = {
+			isa = PBXGroup;
+			children = (
+				7830A3E819484B9A00E2184E /* LittleCaffeine.h */,
+				7830A3E919484C5C00E2184E /* WindowUtil.h */,
+				7830A3EA19484C5C00E2184E /* WindowUtil.mm */,
+			);
+			path = utils;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		7830A39D19484AD900E2184E /* SignageKit */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7830A3AC19484ADA00E2184E /* Build configuration list for PBXNativeTarget "SignageKit" */;
+			buildPhases = (
+				7830A39A19484AD900E2184E /* Sources */,
+				7830A39B19484AD900E2184E /* Frameworks */,
+				7830A39C19484AD900E2184E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SignageKit;
+			productName = SignageKit;
+			productReference = 7830A39E19484AD900E2184E /* SignageKit.bundle */;
+			productType = "com.apple.product-type.bundle";
+		};
+		7830A3B219484B2900E2184E /* MacSignageKit */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7830A3E019484B2900E2184E /* Build configuration list for PBXNativeTarget "MacSignageKit" */;
+			buildPhases = (
+				7830A3AF19484B2900E2184E /* Sources */,
+				7830A3B019484B2900E2184E /* Frameworks */,
+				7830A3B119484B2900E2184E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MacSignageKit;
+			productName = MacSignageKit;
+			productReference = 7830A3B319484B2900E2184E /* MacSignageKit.app */;
+			productType = "com.apple.product-type.application";
+		};
+		7830A3D119484B2900E2184E /* MacSignageKitTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7830A3E319484B2900E2184E /* Build configuration list for PBXNativeTarget "MacSignageKitTests" */;
+			buildPhases = (
+				7830A3CE19484B2900E2184E /* Sources */,
+				7830A3CF19484B2900E2184E /* Frameworks */,
+				7830A3D019484B2900E2184E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				7830A3D719484B2900E2184E /* PBXTargetDependency */,
+			);
+			name = MacSignageKitTests;
+			productName = MacSignageKitTests;
+			productReference = 7830A3D219484B2900E2184E /* MacSignageKitTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		7830A39619484AD900E2184E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = "Koki Ibukuro";
+				TargetAttributes = {
+					7830A3D119484B2900E2184E = {
+						TestTargetID = 7830A3B219484B2900E2184E;
+					};
+				};
+			};
+			buildConfigurationList = 7830A39919484AD900E2184E /* Build configuration list for PBXProject "SignageKit" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 7830A39519484AD900E2184E;
+			productRefGroup = 7830A39F19484AD900E2184E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				7830A39D19484AD900E2184E /* SignageKit */,
+				7830A3B219484B2900E2184E /* MacSignageKit */,
+				7830A3D119484B2900E2184E /* MacSignageKitTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		7830A39C19484AD900E2184E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7830A3A819484ADA00E2184E /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7830A3B119484B2900E2184E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7830A3BF19484B2900E2184E /* InfoPlist.strings in Resources */,
+				7830A3CD19484B2900E2184E /* Images.xcassets in Resources */,
+				7830A3C519484B2900E2184E /* Credits.rtf in Resources */,
+				7830A3CB19484B2900E2184E /* MainMenu.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7830A3D019484B2900E2184E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7830A3DD19484B2900E2184E /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		7830A39A19484AD900E2184E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7830A3EB19484C5C00E2184E /* WindowUtil.mm in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7830A3AF19484B2900E2184E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7830A3C819484B2900E2184E /* AppDelegate.m in Sources */,
+				7830A3C119484B2900E2184E /* main.m in Sources */,
+				7830A3EC19484C5C00E2184E /* WindowUtil.mm in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7830A3CE19484B2900E2184E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7830A3DF19484B2900E2184E /* MacSignageKitTests.m in Sources */,
+				7830A3ED19484C5C00E2184E /* WindowUtil.mm in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		7830A3D719484B2900E2184E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 7830A3B219484B2900E2184E /* MacSignageKit */;
+			targetProxy = 7830A3D619484B2900E2184E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		7830A3A619484AD900E2184E /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7830A3A719484AD900E2184E /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		7830A3BD19484B2900E2184E /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7830A3BE19484B2900E2184E /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		7830A3C319484B2900E2184E /* Credits.rtf */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7830A3C419484B2900E2184E /* en */,
+			);
+			name = Credits.rtf;
+			sourceTree = "<group>";
+		};
+		7830A3C919484B2900E2184E /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7830A3CA19484B2900E2184E /* Base */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+		7830A3DB19484B2900E2184E /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7830A3DC19484B2900E2184E /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		7830A3AA19484ADA00E2184E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = NO;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.8;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		7830A3AB19484ADA00E2184E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = NO;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.8;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		7830A3AD19484ADA00E2184E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_64_BIT)";
+				CLANG_ENABLE_OBJC_ARC = NO;
+				CLANG_MODULES_AUTOLINK = YES;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SignageKit/SignageKit-Prefix.pch";
+				INFOPLIST_FILE = "SignageKit/SignageKit-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Bundles";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Debug;
+		};
+		7830A3AE19484ADA00E2184E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_64_BIT)";
+				CLANG_ENABLE_OBJC_ARC = NO;
+				CLANG_MODULES_AUTOLINK = YES;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SignageKit/SignageKit-Prefix.pch";
+				INFOPLIST_FILE = "SignageKit/SignageKit-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Bundles";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Release;
+		};
+		7830A3E119484B2900E2184E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD)";
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "MacSignageKit/MacSignageKit-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "MacSignageKit/MacSignageKit-Info.plist";
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		7830A3E219484B2900E2184E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD)";
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "MacSignageKit/MacSignageKit-Prefix.pch";
+				INFOPLIST_FILE = "MacSignageKit/MacSignageKit-Info.plist";
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		7830A3E419484B2900E2184E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/MacSignageKit.app/Contents/MacOS/MacSignageKit";
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+					"$(inherited)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "MacSignageKit/MacSignageKit-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "MacSignageKitTests/MacSignageKitTests-Info.plist";
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		7830A3E519484B2900E2184E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/MacSignageKit.app/Contents/MacOS/MacSignageKit";
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+					"$(inherited)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "MacSignageKit/MacSignageKit-Prefix.pch";
+				INFOPLIST_FILE = "MacSignageKitTests/MacSignageKitTests-Info.plist";
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		7830A39919484AD900E2184E /* Build configuration list for PBXProject "SignageKit" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7830A3AA19484ADA00E2184E /* Debug */,
+				7830A3AB19484ADA00E2184E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7830A3AC19484ADA00E2184E /* Build configuration list for PBXNativeTarget "SignageKit" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7830A3AD19484ADA00E2184E /* Debug */,
+				7830A3AE19484ADA00E2184E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7830A3E019484B2900E2184E /* Build configuration list for PBXNativeTarget "MacSignageKit" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7830A3E119484B2900E2184E /* Debug */,
+				7830A3E219484B2900E2184E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7830A3E319484B2900E2184E /* Build configuration list for PBXNativeTarget "MacSignageKitTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7830A3E419484B2900E2184E /* Debug */,
+				7830A3E519484B2900E2184E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 7830A39619484AD900E2184E /* Project object */;
+}
