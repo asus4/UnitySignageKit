@@ -3,7 +3,11 @@ using System.Collections;
 
 public class Test : MonoBehaviour {
 
-	void Start() {
+	IEnumerator Start() {
+		// Wait  for GL initailizing
+		yield return new WaitForSeconds(1.0f);
+		SignageKitPlugin.WindowPosition(10, 10, 500, 400);
+		yield return new WaitForSeconds(1.0f);
 		// Easy enable
 		SignageKitPlugin.AllEnable();
 		SignageKitPlugin.FullAllScreen();
